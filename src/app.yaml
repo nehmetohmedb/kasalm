@@ -1,0 +1,6 @@
+command: ['python', 'entrypoint.py']
+environment_vars:
+  PYTHONPATH: '.:${PYTHONPATH}'
+  PYTHONUNBUFFERED: '1'
+apt_packages:
+  - libpq-dev
